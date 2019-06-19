@@ -1,10 +1,10 @@
-import React, { Component } from 'react'
-
+import React, { Component } from 'react';
+import './index.less';
 export default class Footer extends Component {
     render() {
         return (
-            <div>
-                This is Footer
+            <div className="footer">
+                版权所有: Jason
             </div>
         )
     }

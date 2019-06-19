@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
 import Admin from './admin';
+//import Router from './demo/router/router'
 
 ReactDOM.render(<Admin />, document.getElementById('root'));
 
