@@ -8,7 +8,7 @@ import axios from '../../axios';
  */
 export default class Header extends Component {
     state={}
-    componentWillMount(){
+    componentDidMount(){
         this.setState({
             userName:'Jason'
         })

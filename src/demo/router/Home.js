@@ -15,7 +15,7 @@ export default class Home extends Component {
                     >
                         <ul style={{ listStyleType: "none", padding: 0 }}>
                             <li>
-                            <Link to="/page1/ceshi">Home</Link>
+                            <Link to="/page1">Home</Link>
                             </li>
                             <li>
                             <Link to="/page2">page2</Link>
